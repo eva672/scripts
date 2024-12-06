@@ -8,3 +8,4 @@ echo "operation (+,*,-,/)"
 read operation
 result=$(echo "scale=3;$number1 $operation $number2" | bc -l)
 echo "Result; $result"
+
